@@ -9,7 +9,7 @@ const bs = require('browser-sync').create(); // create a browser sync instance.
 
 // paths
 const htmlSources = './*.html';
-const cssSources = './css/*.less';
+const cssSources = './styles/*.less';
 
 gulp.task('browser-sync', function() {
   bs.init({

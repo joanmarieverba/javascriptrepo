@@ -1,0 +1,33 @@
+@color1: #123456;
+@font: helvetica;
+
+.some-class {
+    color: @color1;
+    font-family: @font;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.bigger-class {
+    .some-class;
+    margin-top: 5px;
+}
+
+div.col-xs-6 {
+    .bigger-class;
+    p.ptag {
+
+    }
+    ul {
+        li {
+
+        }
+    }
+
+    ol {
+        li {
+
+        }
+    }
+ 
+}
