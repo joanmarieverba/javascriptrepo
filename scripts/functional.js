@@ -21,3 +21,4 @@ const reducedArray = filteredArray.reduce(function(acc, elem) {
   return acc + elem;
 }, 0); // tells reduce function what you want accumulator to be...here it's one value
 // zero is the starting number, says the result is a number, too
+
